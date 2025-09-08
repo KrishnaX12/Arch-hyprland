@@ -1,0 +1,76 @@
+/* =========================
+   Global styles
+========================= */
+* {
+    background-color: rgba(0,0,0,0.0);  /* fully transparent */
+    color: #e0e0ff;                      /* default text color - soft purple */
+    border-radius: 6px;
+}
+
+/* =========================
+   Main window
+========================= */
+window {
+    width: 25%;
+    location: center;
+    anchor: center;
+    padding: 6px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgba(128,0,128,0.3); /* transparent purple border */
+    background-color: rgba(0,0,0,0.0); /* fully transparent */
+}
+
+/* =========================
+   Input bar
+========================= */
+inputbar {
+    background-color: rgba(128,0,128,0.1); /* very light purple */
+    color: #ffffff;                        /* text in input */
+    padding: 6px 8px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgba(128,0,128,0.3);
+}
+
+/* =========================
+   List of options
+========================= */
+listview {
+    lines: 6;
+    columns: 1;
+    spacing: 4px;
+    padding: 4px;
+}
+
+/* =========================
+   Each option row
+========================= */
+element {
+    background-color: rgba(0,0,0,0.0);
+    color: #e0e0ff; /* soft purple */
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+/* Selected row */
+element selected {
+    background-color: rgba(128,0,128,0.3); /* semi-transparent purple */
+    color: #ffffff;                        /* readable text */
+}
+
+/* =========================
+   Scrollbar (if used)
+========================= */
+scrollbar {
+    background-color: rgba(128,0,128,0.05);
+    border-radius: 4px;
+}
+
+/* =========================
+   Scrollbar handle
+========================= */
+scrollbar handle {
+    background-color: rgba(128,0,128,0.3);
+    border-radius: 4px;
+}
