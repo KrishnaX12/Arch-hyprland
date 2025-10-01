@@ -1,0 +1,67 @@
+configuration {
+    modi: "drun,run";
+    show-icons: true;
+    display-drun: " Apps:";
+    drun-display-format: "{icon} {name}";
+    padding: 4;
+    fullscreen: false;
+}
+
+/* apply to all elements */
+* {
+    background-color: rgba(0, 0, 0, 0.0);   /* fully transparent */
+    text-color:      #ffffff;               /* default text color */
+    selected-color:  #000000;               /* selected text color */
+    selected-bg:     rgba(173,216,230,0.5);/* light blue, semi-transparent selection */
+    border-color:    rgba(0,0,0,0);         /* no border */
+    border-radius:   12px;
+}
+
+/* main window */
+window {
+    background-color: rgba(0,0,0,0.0);      /* fully transparent window */
+    anchor: center;
+    location: center;
+    width: 50%;
+    border-radius: 12px;
+}
+
+/* input/search bar */
+inputbar {
+    background-color: rgba(173,216,230,0.3); /* very light blue, slightly visible */
+    text-color: #000000;                     /* black text for typing */
+    padding: 10px;
+    border-radius: 12px;
+}
+
+/* typed text */
+entry {
+    text-color: #000000;
+    placeholder: " Search apps…";
+}
+
+/* list of results */
+listview {
+    lines: 6;
+    columns: 1;
+    spacing: 5px;
+    cycle: true;
+    border-radius: 12px;
+    padding: 2px;
+}
+
+/* each row */
+element {
+    background-color: rgba(0,0,0,0.0);      /* fully transparent rows */
+    text-color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+/* selected row */
+element selected {
+    background-color: rgba(173,216,230,0.5); /* light blue semi-transparent */
+    text-color: #000000;                     /* readable on wallpaper */
+    border-radius: 8px;
+    padding: 6px 10px;
+}
