@@ -1,0 +1,98 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 14px;
+  border: none;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(49, 50, 68, 0.4); /* glassy background */
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 8px;
+  padding: 4px;
+}
+
+/* pill modules */
+#workspaces,
+#custom-bluetooth,
+#custom-powermenu,
+#custom-music,
+#pulseaudio,
+#network,
+#backlight,
+#battery,
+#clock,
+#tray {
+  background-color: #313244;  /* surface0 */
+  color: #cdd6f4;            /* text */
+  padding: 4px 12px;
+  margin: 0 4px;
+/*border-radius: 16px; */ 
+}
+
+/* workspaces */
+#workspaces button {
+  padding: 0 8px;
+  margin: 2px;
+/*border-radius: 12px; */
+  color: #b4befe;  /* lavender */
+}
+
+#workspaces button.active {
+  background-color: #89b4fa;  /* blue */
+  color: #1e1e2e;             /* base */
+}
+
+#workspaces button:hover {
+  background-color: #cba6f7;  /* mauve */
+  color: #1e1e2e;             /* base */
+}
+
+/* colors for modules */
+#custom-bluetooth {
+  color: #b4befe;  /* lavender */
+}
+
+#custom-bluetooth:hover {
+  background-color: #b4befe;
+  color: #1e1e2e;
+}
+
+#pulseaudio {
+  color: #cba6f7;  /* mauve */
+}
+
+#network {
+  color: #fab387;  /* peach */
+}
+
+#backlight {
+  color: #f9e2af;  /* yellow */
+}
+
+#battery {
+  color: #a6e3a1;  /* green */
+}
+
+#battery.warning {
+  color: #f38ba8;  /* red */
+}
+
+#clock {
+  color: #89b4fa;  /* blue */
+}
+
+#custom-powermenu {
+  background-color: #313244; /* surface0 */
+  color: #f38ba8;            /* red */
+  padding: 4px 12px;
+  margin: 0 4px;
+/*border-radius: 16px; */ 
+}
+
+#custom-powermenu:hover {
+  background-color: #f38ba8;
+  color: #1e1e2e;            /* base */
+}
+
