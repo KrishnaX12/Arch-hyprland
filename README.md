@@ -3,7 +3,7 @@
 ![Arch Linux](https://img.shields.io/badge/OS-ArchLinux-blue?logo=arch-linux)
 ![Hyprland](https://img.shields.io/badge/WM-Hyprland-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
-NO LONGER MAINTAINED AFTER 10/10/2025
+- NO LONGER MAINTAINED AFTER 10/10/2025
 ------------------------------------------------------------------------------------------------
 # Features
 - Waybar with transparent background (Catppuccin-like theme)
